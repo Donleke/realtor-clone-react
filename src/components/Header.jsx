@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Header() {
   const location = useLocation();
@@ -25,7 +25,7 @@ export default function Header() {
           <ul className="flex space-x-10">
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
-                pathMathRoute("/") && "text-black border-b-red-500"
+                pathMathRoute("/") && "!text-black !border-b-red-500"
               }`}
               onClick={() => navigate("/")}
             >
@@ -33,7 +33,7 @@ export default function Header() {
             </li>
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
-                pathMathRoute("/offers") && "text-black border-b-red-500"
+                pathMathRoute("/offers") && "!text-black !border-b-red-500"
               }`}
               onClick={() => navigate("/offers")}
             >
@@ -41,7 +41,7 @@ export default function Header() {
             </li>
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
-                pathMathRoute("/sign-in") && "text-black border-b-red-500"
+                pathMathRoute("/sign-in") && "!text-black !border-b-red-500"
               }`}
               onClick={() => navigate("/sign-in")}
             >
