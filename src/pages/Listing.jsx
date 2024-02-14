@@ -40,7 +40,7 @@ export default function Listing() {
       <Swiper
         slidesPerView={1}
         navigation
-        pagination={{ type: "progrssbar" }}
+        pagination={{ type: "progressbar" }}
         effect="fade"
         autoplay={{ delay: 2500 }}
       >
