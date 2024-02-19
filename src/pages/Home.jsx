@@ -1,9 +1,9 @@
-function Home() {
+import Slider from "../components/Slider";
+
+export default function Home() {
   return (
     <div>
-      <h1 className="bg-blue">Home</h1>
+      <Slider />
     </div>
   );
 }
-
-export default Home;
