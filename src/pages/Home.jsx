@@ -75,7 +75,7 @@ export default function Home() {
     };
     fetchListings();
   }, []);
-  // Places for rent
+  // Places for sale
   const [saleListings, setSaleListings] = useState(null);
 
   useEffect(() => {
