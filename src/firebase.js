@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "realtor-clone-react-4b5f0.firebaseapp.com",
   projectId: "realtor-clone-react-4b5f0",
   storageBucket: "realtor-clone-react-4b5f0.appspot.com",
